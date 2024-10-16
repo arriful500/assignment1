@@ -1,0 +1,30 @@
+.navparent {
+  display: flex;
+  justify-content: space-around;
+}
+
+nav>ul>li>a {
+  text-decoration: none;
+}
+
+.banner {
+  height: 620px;
+  max-width: 1440px;
+  background-image: url(/B10A1-Challenge-Begins/assets/Hero-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 48px;
+  display: flex;
+  flex-direction: column  ;
+  align-items: center;
+}
+.bannerimg{
+  margin-top: 30px;
+}
+.bannerh{
+  margin-top: 50px;
+}
+.bannerbtn{
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
