@@ -38,10 +38,31 @@ nav>ul>li>a {
 .mainsection {
 
   width: 946px;
-  height: 1072px;
+  height: 1500px;
   border-radius: 16px;
   background: rgba(13, 19, 33, 0.02);
   margin-left: 145px;
   margin-right: 152px;
   margin-top: 70px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  padding: 97px;
+}
+
+.h3 {
+  padding: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container2 {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  padding: 97px;
 }
