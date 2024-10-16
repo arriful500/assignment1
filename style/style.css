@@ -1,3 +1,6 @@
+body{
+  height: fit-content;
+}
 .navparent {
   display: flex;
   justify-content: space-around;
@@ -166,11 +169,14 @@ nav>ul>li>a {
 
 .section4 {
   background-image: linear-gradient(to top, rgba(255, 255, 255, 0.3), transparent), url(../b10A1-Challenge-Begins/assets/handshake.jpg);
-  height: 700px;
-  width: 1044px;
+  height: 313px;
+  width: 1144px;
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .sec4hp {
@@ -182,10 +188,17 @@ nav>ul>li>a {
   padding-top: 70px;
 }
 
-input {
+.input{
 
   box-sizing: border-box;
   border: 1px solid rgba(13, 19, 33, 0.15);
   border-radius: 8px;
+  
+  display: flex;
+  flex-direction: row;
+  gap: 30px ;
+}
+.input1{
   background: rgb(255, 255, 255);
+  color: black  ;
 }
