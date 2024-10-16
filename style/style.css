@@ -66,3 +66,126 @@ nav>ul>li>a {
   flex-direction: row;
   padding: 97px;
 }
+
+.section1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.secph {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 10px;
+}
+
+.iframe {
+  margin-top: 48px;
+}
+
+.section1p {
+  position: static;
+  width: 852px;
+  height: 52px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 24;
+  padding: 0px;
+  line-height: 19px;
+}
+
+.section2 {
+  margin-top: 152px;
+}
+
+.cardcontainer {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 48px;
+}
+
+.card1 {
+  height: 200px;
+  width: 200px;
+  padding: 40px;
+  background-color: rgba(255, 76, 30, 0.05);
+}
+
+
+
+.card2 {
+  height: 200px;
+  width: 200px;
+  padding: 40px;
+  border-radius: 16px;
+  background: rgba(0, 76, 232, 0.05);
+}
+
+.card3 {
+  height: 200px;
+  width: 200px;
+  padding: 40px;
+  border-radius: 16px;
+  background: rgba(255, 223, 0, 0.05);
+}
+
+.h4hp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.div2 {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  align-items: center;
+  margin-top: 30px;
+  padding: 40px;
+}
+
+.section3 {
+  /* display: flex; */
+  /* flex-direction: column; */
+  align-items: center;
+}
+
+.div1 {
+  /* padding: 144px; */
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  margin-top: 111px;
+  align-items: center;
+}
+
+
+.section4 {
+  background-image: linear-gradient(to top, rgba(255, 255, 255, 0.3), transparent), url(../b10A1-Challenge-Begins/assets/handshake.jpg);
+  height: 700px;
+  width: 1044px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 16px;
+}
+
+.sec4hp {
+  display: flex;
+  flex-direction: column;
+  color: azure;
+  align-items: center;
+  margin-top: 49px;
+  padding-top: 70px;
+}
+
+input {
+
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
+}
